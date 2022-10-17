@@ -1,15 +1,21 @@
 Please do
 
-php artisan migrate:refresh --seed
-
-for database tables creation
-
-and
+php artisan migrate
 
 php artisan passport:install 
 
 to generate passport keys
 
-UserSeeder has 4 predifined test users, users will generate
-randomly by Factory  in process of tests also.
+http://localhost:8000/api/barris/ 
+
+API request to see all data in database
+
+http://localhost:8000/api/barris/{id}
+
+API request to see one barri data
+
+http://localhost:8000/testing.html
+
+for frontend
+
 
