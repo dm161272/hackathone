@@ -1,4 +1,4 @@
-Please do
+Please do:
 
 php artisan migrate
 
