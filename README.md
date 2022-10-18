@@ -6,6 +6,11 @@ php artisan passport:install
 
 to generate passport keys
 
+************************************************
+http://localhost:8000/api/json/jdata.json
+adds data to mySQL table!
+************************************************
+
 http://localhost:8000/api/barris/ 
 
 API request to see all data in database
