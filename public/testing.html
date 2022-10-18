@@ -23,8 +23,8 @@
         };
     
         document.addEventListener("DOMContentLoaded", function(){
-    
-            fetch('http://10.19.245.228:8000/api/barris')
+            addr = 'localhost';
+            fetch('http://'+ addr + ':8000/api/barris')
             .then((response) => response.json())
             .then((data) =>{
                 plot(data);

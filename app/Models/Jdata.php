@@ -22,8 +22,7 @@ class Jdata extends Model
      */
     public function getJson($name)
     {
-        $name = file_get_contents($name);
-       
+        $name = file_get_contents($name); 
         $jdata = json_decode($name, true);
         //dd($jdata);
         foreach($jdata as $j) {
